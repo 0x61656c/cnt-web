@@ -1,8 +1,8 @@
 <?php
 
 if (isset($_POST['button'])) {
-	$first = $_POST['fname'];
-	$last = $_POST['lname'];
+	$first = $_POST['firstname'];
+	$last = $_POST['lastname'];
 	$email = $_POST['email'];
 
 	$mailto = "alebel@andrew.cmu.edu"
