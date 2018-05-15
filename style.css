@@ -3,6 +3,19 @@ body
 	margin:0;
 	padding:0;
 	height: 100vh;
+	background-color: #E1E3E9;
+}
+
+#fname{
+    margin-right: 30px;
+}
+
+#lname{
+    margin-right: 30px;
+}
+
+#email{
+    margin-right: 30px;
 }
 
 #particles-js
