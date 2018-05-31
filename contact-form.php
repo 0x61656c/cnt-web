@@ -11,6 +11,7 @@ if (isset($_POST['button'])) {
 	$txt = "New email form user: ".$email;
 
 	mail($mailto, $subject, $txt, $headers);
-	header("Location:form.html");
+	header("Location: index.html?=success");
+} else {
+	header("Location: index.html?form=failed");
 }
-?>
