@@ -29,6 +29,45 @@ body
 	color: white;
 }
 
+
+input {
+    border: 1px solid #555;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 5px;
+}
+
+input:focus {
+    outline: none;
+    border: 3px solid #555;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: "Trebuchet MS", "Helvetica", "sans-serif";
+}
+h2 {
+    font-family: "Trebuchet MS", "Helvetica", "sans-serif";
+}
+}
+h3 {
+    font-family: "Trebuchet MS", "Helvetica", "sans-serif";
+}
+}
+h4 {
+    font-family: "Trebuchet MS", "Helvetica", "sans-serif";
+}
+h5 {
+    font-family: "Trebuchet MS", "Helvetica", "sans-serif";
+}
+h6 {
+    font-family: "Trebuchet MS", "Helvetica", "sans-serif";
+}
+
 #fade {
     margin-top: 25px;
     font-size: 21px;
@@ -40,6 +79,7 @@ body
          -o-animation: fadein 2s; /* Opera < 12.1 */
             animation: fadein 2s;
 }
+
 
 @keyframes fadein {
     from { opacity: 0; }
