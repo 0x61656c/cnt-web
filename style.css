@@ -29,6 +29,17 @@ body
 	color: white;
 }
 
+.section
+{
+    font-weight: bold;
+    font-size: 24px ;
+}
+
+.subsection{
+    font-weight: bold;
+    font-size: 18px ;
+}
+
 
 input {
     border: 1px solid #555;
